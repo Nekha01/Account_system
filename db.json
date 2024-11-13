@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "4118",
+      "name": "rahul",
+      "email": "727723eucs177@skcet.ac.in",
+      "password": "rahul123"
+    },
+    {
+      "id": "8a95",
+      "name": "nekha",
+      "email": "727723eucs144@skcet.ac.in",
+      "password": "nekha123"
+    },
+    {
+      "id": "5287",
+      "name": "Praveen M",
+      "email": "727723eucs168@skcet.ac.in",
+      "password": "gubbu123"
+    },
+    {
+      "id": "ebcd",
+      "name": "gopal",
+      "email": "727723eucs146@skcet.ac.in",
+      "password": "gopal123"
+    }
+  ]
+}

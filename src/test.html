@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botsonic Test</title>
+</head>
+<body>
+    <script>
+        const script = document.createElement('script');
+        script.src = "https://widget.botsonic.com/CDN/botsonic.min.js"; // Update with correct URL
+        script.async = true;
+        script.onload = () => {
+            if (typeof window.Botsonic === 'function') {
+                window.Botsonic("init", {
+                    serviceBaseUrl: "https://api-azure.botsonic.ai",
+                    token: "7a0ef2cb-9ac6-4308-9ea4-5f84c380774a", // Ensure the token is valid
+                });
+            } else {
+                console.error("Botsonic function is not available on the window object.");
+            }
+        };
+        script.onerror = () => {
+            console.error("Failed to load the Botsonic widget script.");
+        };
+        document.body.appendChild(script);
+    </script>
+</body>
+</html>
